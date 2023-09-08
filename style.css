@@ -1,0 +1,49 @@
+body{
+    background-color: #000057;
+}
+h1{
+    color:#f94c10;
+    font-size: 3rem;
+    font-family: 'Teko', sans-serif;
+    font-weight: lighter;
+}
+span{
+    color: rgb(255, 222, 32);
+    font-size: 6rem;
+    font-family: 'Lobster', cursive;
+}
+.parent{ 
+    display:inline-flex;
+    gap: 100px;
+    flex-direction: row;
+}
+.first{
+    margin: 20px;
+    align-self: start;
+}
+.container{
+    align-self: end;
+    display: grid;
+    grid-template-rows: repeat(5,1fr);
+    grid-template-columns:1fr 1fr;
+    gap: 30px;
+}
+.content{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 200px;
+    height: 200px;
+    background-color: #f1c376;
+    padding: 20px;
+    font-size: smaller;
+}
+.connect{
+    font-size: large;
+    color: #fff2cc;
+}
+a{
+    color:#db005b;
+}
+img{
+    border-radius: 50%;
+}
+
